@@ -37,3 +37,18 @@ console.log('Division of numbers  = ' , + divtotal);clearInterval
 
 let multiplytotal = multiply(num1,num2);
 console.log('Sum of numbers  = ' , + multiplytotal);clearInterval
+
+
+//Function to call name 
+
+function fullNAme(firstName,lastName){
+    return(firstName + " " +lastName)
+}
+
+//Calling Function to print Full Name
+
+let fName = "Tanmay";
+let lName = "Patel";
+
+let personName = fullNAme(fName,lName);
+console.log(personName);
