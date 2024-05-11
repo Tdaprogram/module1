@@ -1,33 +1,58 @@
 // Mathasmatical Operations Excercise 4.1
 
-function sum(num1,num2){
-    let numsum = num1 + num2;
-    return numsum
+function sum(num1, num2) {
+  let numsum = num1 + num2;
+  return numsum;
 }
-function substract(num1,num2){
-    let numsub = num1 - num2;
-    return numsub
+function substract(num1, num2) {
+  let numsub = num1 - num2;
+  return numsub;
 }
-function division(num1,num2){
-    let numdiv = num1  / num2;
-    return numdiv
+function division(num1, num2) {
+  let numdiv = num1 / num2;
+  return numdiv;
 }
-function multiply(num1,num2){
-    let nummulty = num1  * num2;
-    return nummulty
+function multiply(num1, num2) {
+  let nummulty = num1 * num2;
+  return nummulty;
 }
 
 // Console Output for functions
 
-// Addition
-
-let num1 = 10;
-let num2 = 10;
-
 // Calling funstions +, - , / and * respectively.
 
+for (let num1 = -1; num1 < 2; num1++) {
+  let num2 = 4;
+  let sumtotal = sum(num1, num2);
+  console.log("Number 1 is = " + num1 + "," + "Numbner 2 = " + num2);
+  console.log(
+    "Should return = " + (num1 + num2) + " " + "Addition" + " ",
+    sumtotal == num1 + num2 ? "pass" : "fail"
+  );
+  let subtotal = substract(num1, num2);
+  console.log(
+    "Should return = " + (num1 - num2) + " " + "Substarction" + " ",
+    subtotal == num1 - num2 ? "pass" : "fail"
+  );
+  let divtotal = division(num1, num2);
+  console.log(
+    "Should return = " + num1 / num2 + " " + "Division" + " ",
+    divtotal == num1 / num2 ? "pass" : "fail"
+  );
+  let multiplytotal = multiply(num1, num2);
+  console.log(
+    "Should return = " + num1 * num2 + " " + "Multiplication" + " ",
+    multiplytotal == num1 * num2 ? "pass" : "fail"
+  );
+  console.log("");
+  console.log("");
+}
+
+/*
+  
+
 let sumtotal = sum(num1,num2);
-console.log("Should return 10+10 = 20 : Addition " + (sumtotal == 20 ? 'pass' : 'fail' ));
+console.log("Should return", + num1+num2, + "= 20 : Addition " + (sumtotal == 20 ? 'pass' : 'fail' ));
 
 let subtotal = substract(num1,num2);
 console.log("Should return 10-10 = 0 : Substraction " + (subtotal == 0 ? 'pass' : 'fail' ));
@@ -38,3 +63,4 @@ console.log("Should return 10/10 = 1 : Division " + (divtotal == 1 ? 'pass' : 'f
 let multiplytotal = multiply(num1,num2);
 console.log("Should return 10*10 = 100 : Multiplication " + (multiplytotal == 100 ? 'pass' : 'fail' ));
 
+*/
