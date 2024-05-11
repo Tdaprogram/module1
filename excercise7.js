@@ -47,20 +47,20 @@ for (let num1 = -1; num1 < 3; num1++) {
   console.log("When Number1 is = " + num1 + " and " + "Numbner2 = " + num2);
   console.log("");
   console.log(
-    "Addition - " + "Should return = " + (num1 + num2) + " " +  " ",
+    "Addition - " + "Should return = " + (num1 + num2) + " " + " ",
     sumtotal == num1 + num2 ? "pass" : "fail"
   );
-let subtotal = operation(num1, num2,"-");
+  let subtotal = operation(num1, num2, "-");
   console.log(
     "Substarction - " + "Should return = " + (num1 - num2) + " " + " ",
     subtotal == num1 - num2 ? "pass" : "fail"
   );
-  let divtotal = operation(num1, num2,"/");
+  let divtotal = operation(num1, num2, "/");
   console.log(
-    "Division - " +  "Should return = " + num1 / num2 + " " + " ",
+    "Division - " + "Should return = " + num1 / num2 + " " + " ",
     divtotal == num1 / num2 ? "pass" : "fail"
   );
-  let multiplytotal = operation(num1, num2,"*");
+  let multiplytotal = operation(num1, num2, "*");
   console.log(
     "Multiplication - " + "Should return = " + num1 * num2 + " " + " ",
     multiplytotal == num1 * num2 ? "pass" : "fail"

@@ -1,20 +1,20 @@
 // Mathasmatical Operations Excercise 4.1
 
-function sum(num1,num2){
-    let numsum = num1 + num2;
-    return numsum
+function sum(num1, num2) {
+  let numsum = num1 + num2;
+  return numsum;
 }
-function substract(num1,num2){
-    let numsub = num1 - num2;
-    return numsub
+function substract(num1, num2) {
+  let numsub = num1 - num2;
+  return numsub;
 }
-function division(num1,num2){
-    let numdiv = num1  / num2;
-    return numdiv
+function division(num1, num2) {
+  let numdiv = num1 / num2;
+  return numdiv;
 }
-function multiply(num1,num2){
-    let nummulty = num1  * num2;
-    return nummulty
+function multiply(num1, num2) {
+  let nummulty = num1 * num2;
+  return nummulty;
 }
 
 // Console Output for functions
@@ -26,23 +26,26 @@ let num2 = 10;
 
 // Calling funstions +, - , / and * respectively.
 
-let sumtotal = sum(num1,num2);
-console.log('Sum of numbers  = ' , + sumtotal);clearInterval
+let sumtotal = sum(num1, num2);
+console.log("Sum of numbers  = ", +sumtotal);
+clearInterval;
 
-let subtotal = substract(num1,num2);
-console.log('Substraction of numbers  = ' , + subtotal);clearInterval
+let subtotal = substract(num1, num2);
+console.log("Substraction of numbers  = ", +subtotal);
+clearInterval;
 
-let divtotal = division(num1,num2);
-console.log('Division of numbers  = ' , + divtotal);clearInterval
+let divtotal = division(num1, num2);
+console.log("Division of numbers  = ", +divtotal);
+clearInterval;
 
-let multiplytotal = multiply(num1,num2);
-console.log('Sum of numbers  = ' , + multiplytotal);clearInterval
+let multiplytotal = multiply(num1, num2);
+console.log("Sum of numbers  = ", +multiplytotal);
+clearInterval;
 
+//Function to call name
 
-//Function to call name 
-
-function fullNAme(firstName,lastName){
-    return(firstName + " " +lastName)
+function fullNAme(firstName, lastName) {
+  return firstName + " " + lastName;
 }
 
 //Calling Function to print Full Name
@@ -50,5 +53,5 @@ function fullNAme(firstName,lastName){
 let fName = "Tanmay";
 let lName = "Patel";
 
-let personName = fullNAme(fName,lName);
+let personName = fullNAme(fName, lName);
 console.log(personName);
