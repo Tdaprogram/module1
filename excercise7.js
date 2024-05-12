@@ -1,5 +1,6 @@
 // Mathasmatical Operations Excercise 4.1
 
+
 function operation(num1, num2, symbol) {
   let operationtype = symbol;
   if (operationtype == "+") {
@@ -20,7 +21,7 @@ function operation(num1, num2, symbol) {
   }
 }
 
-/*function sum(num1, num2) {
+function sum(num1, num2) {
   let numsum = num1 + num2;
   return numsum;
 }
@@ -36,13 +37,13 @@ function multiply(num1, num2) {
   let nummulty = num1 * num2;
   return nummulty;
 }
-*/
+
 // Console Output for functions
 
 // Calling funstions +, - , / and * respectively.
 
 for (let num1 = -1; num1 < 3; num1++) {
-  let num2 = 4;
+  let num2 = num1+1;
   let sumtotal = operation(num1, num2, "+");
   console.log("When Number1 is = " + num1 + " and " + "Numbner2 = " + num2);
   console.log("");
