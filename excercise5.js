@@ -15,3 +15,6 @@ languages.pop();
 
 //reprint original Array
 console.log(languages);
+for (let i=0; i<=languages.length-1;i++){
+    console.log(languages[i]);
+}
