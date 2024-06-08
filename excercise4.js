@@ -1,5 +1,30 @@
-// Mathematical Operations Exercise 4.1
+// Mathematical Operations Exercise 4.e
+class mathsOperations {
+  sum(num1, num2) {
+    let numsum = num1 + num2;
+    return numsum;
+  }
+  subtract(num1, num2) {
+    let numsub = num1 - num2;
+    return numsub;
+  }
+  division(num1, num2) {
+    let numdiv = num1 / num2;
+    return numdiv;
+  }
+  multiply(num1, num2) {
+    let numMulty = num1 * num2;
+    return numMulty;
+  }
+}
 
+  let mathsOperationsOutput = new mathsOperations();
+  console.log(mathsOperationsOutput.sum(20, 10));
+  console.log(mathsOperationsOutput.subtract(20, 10));
+  console.log(mathsOperationsOutput.division(20, 10));
+  console.log(mathsOperationsOutput.multiply(20, 10));
+
+/*
 function sum(num1, num2) {
   let numsum = num1 + num2;
   return numsum;
@@ -55,3 +80,4 @@ let lName = "Patel";
 
 let personName = fullNAme(fName, lName);
 console.log(personName);
+*/
