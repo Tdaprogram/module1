@@ -1,5 +1,8 @@
 // Mathematical Operations Exercise 4.e
 class MathsOperations {
+  studentName(firstName, lastName) {
+    return firstName + " " + lastName;
+  }
   sum(num1, num2) {
     let numsum = num1 + num2;
     return numsum;
@@ -18,11 +21,15 @@ class MathsOperations {
   }
 }
 
-  let mathsOperationsOutput = new MathsOperations();
-  console.log(mathsOperationsOutput.sum(20, 10));
-  console.log(mathsOperationsOutput.subtract(20, 10));
-  console.log(mathsOperationsOutput.division(20, 10));
-  console.log(mathsOperationsOutput.multiply(20, 10));
+let mathsOperationsOutput = new MathsOperations();
+console.log(
+  `Program written by  - ` +
+    mathsOperationsOutput.studentName("Tanmay", "Patel")
+);
+console.log(mathsOperationsOutput.sum(20, 10));
+console.log(mathsOperationsOutput.subtract(20, 10));
+console.log(mathsOperationsOutput.division(20, 10));
+console.log(mathsOperationsOutput.multiply(20, 10));
 
 /*
 function sum(num1, num2) {
@@ -59,7 +66,7 @@ let subtotal = substract(num1, num2);
 console.log("Substraction of numbers  = ", +subtotal);
 clearInterval;
 
-let divtotal = division(num1, num2);
+let diagonal = division(num1, num2);
 console.log("Division of numbers  = ", +divtotal);
 clearInterval;
 
