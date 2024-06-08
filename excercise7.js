@@ -1,7 +1,7 @@
 // Mathasmatical Operations Excercise 4.1
 
 
-function operation(num1, num2, symbol) {
+function operation(num1, num2,symbol) {
   let operationtype = symbol;
   if (operationtype == "+") {
     let numsum = num1 + num2;
@@ -21,7 +21,7 @@ function operation(num1, num2, symbol) {
   }
 }
 
-function sum(num1, num2) {
+/*function sum(num1, num2) {
   let numsum = num1 + num2;
   return numsum;
 }
@@ -37,7 +37,7 @@ function multiply(num1, num2) {
   let nummulty = num1 * num2;
   return nummulty;
 }
-
+*/
 // Console Output for functions
 
 // Calling funstions +, - , / and * respectively.
