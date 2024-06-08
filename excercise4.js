@@ -1,4 +1,4 @@
-// Mathasmatical Operations Excercise 4.1
+// Mathematical Operations Exercise 4.1
 
 function sum(num1, num2) {
   let numsum = num1 + num2;
@@ -13,8 +13,8 @@ function division(num1, num2) {
   return numdiv;
 }
 function multiply(num1, num2) {
-  let nummulty = num1 * num2;
-  return nummulty;
+  let numMulty = num1 * num2;
+  return numMulty;
 }
 
 // Console Output for functions
