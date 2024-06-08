@@ -1,5 +1,5 @@
 // Mathematical Operations Exercise 4.e
-class mathsOperations {
+class MathsOperations {
   sum(num1, num2) {
     let numsum = num1 + num2;
     return numsum;
@@ -18,7 +18,7 @@ class mathsOperations {
   }
 }
 
-  let mathsOperationsOutput = new mathsOperations();
+  let mathsOperationsOutput = new MathsOperations();
   console.log(mathsOperationsOutput.sum(20, 10));
   console.log(mathsOperationsOutput.subtract(20, 10));
   console.log(mathsOperationsOutput.division(20, 10));
