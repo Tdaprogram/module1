@@ -1,4 +1,4 @@
-// Mathasmatical Operations Excercise 4.1
+// Mathematical Operations Exercise 4.1
 
 
 function operation(num1, num2,symbol) {
