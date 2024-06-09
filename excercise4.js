@@ -1,4 +1,4 @@
-// Mathematical Operations Exercise 4.e
+// Mathematical Operations Exercise
 class MathsOperations {
   studentName(firstName, lastName) {
     return firstName + " " + lastName;
