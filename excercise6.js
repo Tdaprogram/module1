@@ -1,5 +1,5 @@
 let book = {
-  title: "Learning Javascipt Object Variable",
+  title: "Learning Javascript Object Variable",
   author: "Institute of Data",
   year: 2024,
   genre: "Programming",
