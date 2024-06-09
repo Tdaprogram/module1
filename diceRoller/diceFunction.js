@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 //Change logic from 6 sides to 8 sides selection ?
 function rollDice(sides) {
@@ -12,7 +12,6 @@ function rollDice(sides) {
   dice.style.transform = "rotateX(" + (Math.floor(Math.random() * 4) * 90) + "deg) rotateY(" + (Math.floor(Math.random() * 4) * 90) + "deg)";
   dice.classList.remove(...sides);
   dice.classList.add(randomSide);
-=======
 function rollDice() {
   var numDice = parseInt(document.getElementById('numDice').value);
   var numSides = parseInt(document.getElementById('numSides').value);
@@ -26,5 +25,6 @@ function rollDice() {
   total += modifier;
 
   document.getElementById('diceResult').textContent = 'Result: ' + total;
->>>>>>> b11cee14fa372e1459ada798bcc4c5aee34f57ba
+
+}
 }
